@@ -1,0 +1,74 @@
+<DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="presentacion de empresa">
+		<meta name="keyword" content="ntono, publicidad, proyectos digitales, diseño grafico, animación, streaming, diseño web">
+		<meta name="author" content="Edwin Marte">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Presentación Ntono</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/ntono.css">
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			<!--slider #1 -->
+				<section>
+					<div class="logo_animation">
+						<!--<img class="logo" src="assets/logo.png" />
+						<img class="logo_circulo" src="assets/puntorojo.png" />-->
+						<object class="logo">
+							<embed z-index="0" src="logo_animation-01.svg">
+
+						</object>
+						<img class="logo_personajes" src="assets/personajes.png" />
+						
+					</div>
+
+				</section>
+
+			<!--slider #2-->
+				<section data-autoslide="2000" data-background="#e6e6e6" >
+					<p>Slide 2</p>
+					<!--Section dentro de otra, efecto scroll con face in -->
+					<section>Esto es un slide dentro de otro</section>
+					<section data-background="gray">Esto es un slide dentro de otro 2</section>
+					<section data-transition="zoom" >
+					<p class="fragment" data-autoslide="4000">Después de 4 segundos pasaremos al siguiente slider</p>
+					<p class="fragment" >Este es el nuevo fragmento que podemos visualizar de manera automatica</p>
+					</section>
+				</section>
+				<section data-transition="slide" data-markdown data-background-image="http://i.imgur.com/1wYVzIK.jpg">
+
+					Nítido!
+   					 <script type="text/template">
+     				   ## Page title
+
+	     				   A paragraph with some text and a [link](http://hakim.se).
+	  				  </script>
+				</section>
+				<section>
+					- Item 1
+					- Item 2
+				</section>
+			</div>
+		</div>	
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+
+			Reveal.configure({
+				slideNumber:true,
+			})
+
+
+
+
+		</script>
+	</body>
+</html>
