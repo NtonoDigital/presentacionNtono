@@ -398,4 +398,24 @@ ul.list{
     97%{ margin-top: -90px; visibility: hidden;}
     100%{margin-top:0px; visibility: hidden;}
  }
+/*********************************************
+ * --------- Slide de servicios --------------
+ *********************************************/
 
+ .servicios ul {
+    list-style:none;
+    min-height: 350px;
+    margin-left:0px;
+    width:100%;
+ }
+
+ .servicios ul li{
+    display:inline-block;
+    width:20%;
+    padding:10px;
+    margin-left:10px;
+    background-color:#727373;
+    text-align: center;
+    vertical-align:top;
+    font-size:0.6em;
+ }
