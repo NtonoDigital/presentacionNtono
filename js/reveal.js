@@ -4959,3 +4959,14 @@
 	return Reveal;
 
 }));
+
+/****************************************************************************
+====================== Agregando Eventos en slide Activo ===================
+****************************************************************************/
+
+Reveal.addEventListener('somestate', function(){
+	/*Agregar  classes para las secciones*/
+
+	var servicios = document.getElementById("servicios2");
+		servicios.addClass('serv');
+}, false)

@@ -22,12 +22,12 @@
 				<section>
 					<div class="logo_animation">
 						<!--<img class="logo" src="assets/logo.png" />
-						<img class="logo_circulo" src="assets/puntorojo.png" />-->
+						<img class="logo_circ" src="assets/puntorojo.png" />-->
 						<object class="logo">
 							<embed z-index="0" src="logo_animation-01.svg">
 
 						</object>
-						<img class="logo_personajes" src="assets/personajes.png" />
+						<img class="logo_personajes" data-src="assets/personajes.png" />
 						
 					</div>
 
@@ -61,14 +61,26 @@
 				</section>
 
 				<!--slider #3-->
-				<section data-transition="zoom" >
-					<p class="fragment" data-autoslide="600">Servicios que ofrecemos</p>
-					<div class="fragment servicios" >
-						<ul>
-							<li>Diseño Web</li>
-							<li>Animación</li>
-							<li>Publicidad Digital</li>
-							<li>Streaming</li>
+				<section data-transition="zoom" data-state="somestate">
+					<p class="fragment" data-autoslide="1600">Servicios que ofrecemos</p>
+					<div class="fragment servicios" data-transition="zoom-out">
+						<ul id="servicios2">
+							<li >
+							<img data-src="assets/web_design.png" />
+							<span>Diseño Web</span>
+							</li>
+							<li>
+								<div class="spinner spinner1"></div>
+								<span>Animación</span>
+							</li>
+							<li>
+								<img data-src="assets/publicidad_digital.png" />
+								<span>Publicidad Digital</span>
+							</li>
+							<li>
+								<img data-src="assets/streaming.png" />
+								<span>Streaming</span>
+							</li>
 						</ul>
 					</div>
 				</section>
@@ -76,12 +88,6 @@
 				<!--slider #4-->
 				<section data-transition="slide" data-markdown data-background-image="http://i.imgur.com/1wYVzIK.jpg">
 
-					Nítido!
-   					 <script type="text/template">
-     				   ## Page title
-
-	     				   A paragraph with some text and a [link](http://hakim.se).
-	  				  </script>
 				</section>
 				<section>
 					- Item 1

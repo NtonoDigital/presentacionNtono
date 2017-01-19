@@ -310,7 +310,7 @@ body {
     animation-name:logo;
     animation-duration: 3s;
  }
- .logo_animation .logo_circulo{
+ .logo_animation .logo_circ{
   position:absolute;
   top:65px;
 
@@ -381,7 +381,7 @@ ul.list{
   list-style: none;
   color:black;
   display: inline-block;
-  animation: list 5s ease-in-out infinite;
+  animation: list 5s ease-in-out infinite 3s;
  }
 
  @keyframes list {
@@ -401,21 +401,115 @@ ul.list{
 /*********************************************
  * --------- Slide de servicios --------------
  *********************************************/
-
+ .servicios{
+    overflow: hidden;
+ }
  .servicios ul {
     list-style:none;
-    min-height: 350px;
+    min-height: 200px;
     margin-left:0px;
     width:100%;
  }
 
  .servicios ul li{
     display:inline-block;
-    width:20%;
+    width:200px;
     padding:10px;
     margin-left:10px;
-    background-color:#727373;
+   /* background-color:#727373;*/
     text-align: center;
     vertical-align:top;
     font-size:0.6em;
+    position:relative;
  }
+
+ .servicios img{
+  max-height: 85px;
+  opacity:.8;
+ }
+
+ .servicios img:hover{
+  opacity:1;
+ }
+
+.sevicios .spinner {
+  width:100px;
+  height:100px;
+  background:#eee;
+  border-radius:50%;
+  position:relative;
+  display:inline-block;
+}
+
+
+ .servicios ul li div::after, .servicios ul li div::before;{
+    content:'';
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+  }
+
+.servicios .spinner{
+ /* width:100px;
+  height:100px;*/
+  background: #cecece;
+  border-radius:50%;
+  position: relative;
+  margin: 20px;
+  display:inline-block;
+  animation: cir 2s linear infinite;
+}
+
+.servicios span{
+  display: block;
+}
+
+.servicios .spinner::after, .servicios .spinner::before{
+  content:'';
+  display:block;
+  width:70px;
+  height:70px;
+  border-radius:50%;
+}
+
+.servicios .spinner1::after{
+  position:absolute;
+  top:-4px;
+  left:-4px;
+  border:4px solid transparent;
+  border-top-color:red;
+  border-bottom-color:red;
+  animation: circ 2s linear infinite;
+}
+
+  @keyframes cir{
+    0%{
+      transform:rotate(0deg) scale(1);
+    }
+    50%{
+      transform: rotate(180deg) scale(0.8);
+    }
+    100%
+    {
+      transform:rotate(360deg) scale(1);
+      }
+  }
+
+  @keyframes circ{
+    0%{
+      transform:rotate(0deg) scale(1);
+    }
+    50%{
+      transform: rotate(180deg) scale(1.2);
+    }
+    100%
+    {
+      transform:rotate(360deg) scale(1);
+      }
+  }
+
+  .serv{
+    visibility: hidden;
+    position:;
+  }
