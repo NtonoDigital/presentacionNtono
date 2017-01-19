@@ -615,3 +615,60 @@ ul.list{
       opacity: 1;
     }
  }
+
+ /*********************************************
+ * ---------------- Animación --------------
+ *********************************************/
+
+ .animacion ul {
+    list-style:none;
+    margin-left:0px;
+    min-height:100px;
+ }
+
+ .animacion ul li{
+    display:inline-block;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background-color:#fefefe;
+    font-size:.5em;
+    text-align: center;
+    position:relative;
+    margin:10px;
+ }
+
+ .btn_animation{
+  width:61px;
+  height:39px;
+  background-image:url(../../assets/play.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:rgba(0, 0, 0, .6);
+  position:absolute;
+  top:-0.5px;
+  left:-0.5px;
+  padding:40% 10px 10px 10px!important;
+  border-radius:50%;
+  opacity:0;
+ }
+
+  .animacion ul li:nth-child(1){
+    background-color:red;
+    content:'Hola';
+  }
+
+.animacion ul li:hover .btn_animation{
+  animation: btn .5s ease-in-out forwards;
+}
+
+ @keyframes btn{
+    from{
+      opacity:0;
+      filter:blur(3px);
+    }
+    to{
+      opacity:1;
+      filter:blur(0px);
+    }
+ }
