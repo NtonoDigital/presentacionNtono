@@ -513,3 +513,75 @@ ul.list{
     visibility: hidden;
     position:;
   }
+
+/*********************************************
+ * ---------------- Diseño Web --------------
+ *********************************************/
+
+ ul.web{
+  max-width:70%;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  vertical-align: bottom;
+  list-style: none;
+  margin:0px;
+
+ }
+
+
+ ul.web .web1{
+  height:330px;
+  min-height: 330px;
+  min-width:215px;
+  background-image:url("../../assets/web_armid.jpg");
+  background-size: cover;
+  display:inline-block;
+ }
+
+  ul.web .web2{
+  min-height: 350px;
+  min-width:215px;
+  background-image:url("../../assets/web_inafocam.jpg");
+  background-size: cover;
+  display:inline-block;
+ }
+
+  ul.web .web3{
+  min-height: 330px;
+  min-width:215px;
+  background-image:url("../../assets/web_marudavila.jpg");
+  background-size: cover;
+  display:inline-block;
+ }
+
+ div.web_content{
+  background-color:rgba(0, 0, 0, .8);
+  width:185px;
+  height: 0;
+  font-size: 0.5em !important;
+  padding: 15px 15px 0px 15px!important;
+  position:absolute;
+  bottom:6px;
+  opacity: 0;
+  overflow: hidden;
+
+ }
+
+ div.web_content p{font-size:.8em;}
+
+ ul.web li.web1:hover div.web_content, ul.web li.web2:hover div.web_content, ul.web li.web3:hover div.web_content{
+  opacity:1;
+  animation: texto .6s ease-out forwards;
+ }
+
+ @keyframes texto{
+  from{
+      height:0px;
+      opacity: 0;
+    }to{
+      height: auto;
+      opacity: 1;
+    }
+ }
