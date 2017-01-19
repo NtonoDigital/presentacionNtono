@@ -354,7 +354,7 @@ body {
   }
 
 /*********************************************
- * ------------- Detalles -------------------
+ * ------------- QUIENES SOMOS-----------------
  *********************************************/
 
 .container-list{
@@ -398,6 +398,29 @@ ul.list{
     97%{ margin-top: -90px; visibility: hidden;}
     100%{margin-top:0px; visibility: hidden;}
  }
+
+ .arrow{
+    position: relative;
+    animation: flecha 1s ease-in-out infinite 10s;
+    opacity:0;
+ }
+
+ @keyframes flecha{
+    0%{
+        opacity:.5;
+      }
+    50%{
+        transform: translateY(20px);
+        opacity:.7;
+      }
+    100%{
+      transform: translateY(0px);
+      opacity:.6;
+      
+    }
+ }
+
+
 /*********************************************
  * --------- Slide de servicios --------------
  *********************************************/
@@ -571,7 +594,14 @@ ul.list{
 
  div.web_content p{font-size:.8em;}
 
- ul.web li.web1:hover div.web_content, ul.web li.web2:hover div.web_content, ul.web li.web3:hover div.web_content{
+ ul.web li.web-a:hover{
+  background-size:97%;
+  transition-timing-function: 3s linear;
+  -webkit-transition-timing-function: 3s linear;
+ }
+
+ /*ul.web li.web1:hover div.web_content, ul.web li.web2:hover div.web_content, ul.web li.web3:hover div.web_content*/
+ ul.web li.web-a:hover div.web_content{
   opacity:1;
   animation: texto .6s ease-out forwards;
  }
