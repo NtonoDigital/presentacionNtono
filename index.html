@@ -129,20 +129,64 @@
 
 				<!--Slide 6 -->
 				<section class="animacion">
-					<div id="videos"></div>
+					<!--animacion logotipos-->
+					
+						<iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/Oguwz_822MQ?list=PLe2wsG4SCjMG0ki1__5czXeAcS_HDInAG" frameborder="0" allowfullscreen></iframe>
+					
+
+
 					<div class="texto-descriptivo">
 						<p>En el área de proyectos web trabajamos las vertientes de: Levantamiento de información, el diseño, la experiencia de usuario, la maquetación y la programación de la misma. (Animación de logo, Motion Graphic, Audivisuales</p>
 					</div>
 
 					<ul>
-						<li><a href="https://youtu.be/Oguwz_822MQ?list=PLe2wsG4SCjMG0ki1__5czXeAcS_HDInAG" target="videos"><div class="btn_animation"></div></a></li>
-						<li><div class="btn_animation"></div></li>
-						<li><div class="btn_animation"></div></li>
+						<li  onclick="iframechange('https://www.youtube.com/embed/Oguwz_822MQ?list=PLe2wsG4SCjMG0ki1__5czXeAcS_HDInAG')">
+						<span>Logos</span>
+						<div class="btn_animation">
+							
+						</div></li>
+						<li onclick="iframechange('https://www.youtube.com/embed/frfrCutB0zI?list=PLe2wsG4SCjMEal8Bbqb-UGbQ6wG2VexZR')">
+						<span>Motion Graphic</span>
+						<div class="btn_animation" >
+							
+						</div></li>
+						<li onclick="iframechange('https://www.youtube.com/embed/m-FAGIcgoog?list=PLe2wsG4SCjMHKs5AQy9zyajEkTJhrmJTG')">
+						<span>Audio visuales</span>
+						<div class="btn_animation" >
+						</div></li>
 					</ul>
+				</section>
+				<!--slide 7-->
+				<section><h2>Publicidad Digital</h2></section>
 
+				<!--Slide 8-->
+				<section>
+					<object class="logo">
+							<embed z-index="0" src="plataforma_colocacion.svg">
+					</object>
 				</section>
 
-				<section data-transition="slide" data-markdown data-background-image="http://i.imgur.com/1wYVzIK.jpg">
+				<!--slide 9-->
+				<section>
+					<object>
+						<embed src="roim.svg">
+					</object>
+				</section>
+
+
+				<!--slide 10-->
+				<section>
+					<h2>Streaming</h2>
+					<p>El streaming consiste en la transmisión de audio y vidoe por internet. De este modo, es posible ver videos o escuchar música sin la necesidad de descargar los archivos en el disco duro. </p>
+				</section>
+
+				<!--slide 11-->
+				<section data-transition="slide" data-background-video="http://ntono.com/videos/Demo_claro.mp4">
+					<div class="streaming-container">
+						<h2>Torneo Intercolegial Claro</h2>
+						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </p>
+					</div>
+				</section>
 
 				</section>
 				<section>
@@ -159,7 +203,10 @@
 				slideNumber:true,
 			})
 
-
+			//funciones propias para comportamiento de elementos
+			function iframechange(event){
+				document.getElementById('videos').src=event;
+			}
 
 
 		</script>

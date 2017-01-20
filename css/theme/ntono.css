@@ -444,7 +444,32 @@ ul.list{
     vertical-align:top;
     font-size:0.6em;
     position:relative;
+    opacity:0;
  }
+
+ .servicios ul li:nth-child(1){
+    animation: entrada 1s linear forwards;
+ }
+ .servicios ul li:nth-child(2){
+    animation: entrada 1s linear forwards 0.33;
+ }
+ .servicios ul li:nth-child(3){
+    animation: entrada 1s linear forwards 0.66;
+ }
+ .servicios ul li:nth-child(4){
+    animation: entrada 1s linear forwards 0.90;
+ }
+
+  @keyframes entrada{
+    from{
+        opacity: 0;
+        transform:translateX(-50px);
+      }to{
+        opacity:1;
+        transform:translateX(0px);
+      }
+  }
+
 
  .servicios img{
   max-height: 85px;
@@ -537,6 +562,7 @@ ul.list{
     position:;
   }
 
+ 
 /*********************************************
  * ---------------- Diseño Web --------------
  *********************************************/
@@ -623,7 +649,7 @@ ul.list{
  .animacion ul {
     list-style:none;
     margin-left:0px;
-    min-height:100px;
+    max-height:100px;
  }
 
  .animacion ul li{
@@ -631,12 +657,22 @@ ul.list{
     width:80px;
     height:80px;
     border-radius:50%;
-    background-color:#fefefe;
     font-size:.5em;
     text-align: center;
     position:relative;
     margin:10px;
+    vertical-align:-webkit-baseline-middle;
+    box-shadow: inset 0px 0px 15px #101010;
  }
+
+  .animacion ul li span{
+    position:absolute;
+    top:26px;
+    left:0;
+    right:0;
+    font-weight: bold;
+
+  }
 
  .btn_animation{
   width:61px;
@@ -644,7 +680,7 @@ ul.list{
   background-image:url(../../assets/play.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color:rgba(0, 0, 0, .6);
+  background-color:rgba(0, 0, 0, .3);
   position:absolute;
   top:-0.5px;
   left:-0.5px;
@@ -654,12 +690,22 @@ ul.list{
  }
 
   .animacion ul li:nth-child(1){
-    background-color:red;
-    content:'Hola';
+    background-color:;
+  }
+  .animacion ul li:nth-child(1){
+    background-color:;
+  }
+  .animacion ul li:nth-child(1){
+    background-color:;
   }
 
 .animacion ul li:hover .btn_animation{
   animation: btn .5s ease-in-out forwards;
+}
+.animacion ul li:focus .btn_animation{
+  background-image:none;
+  animation: btn .3s ease-in-out forwards;
+
 }
 
  @keyframes btn{
@@ -671,4 +717,34 @@ ul.list{
       opacity:1;
       filter:blur(0px);
     }
+ }
+
+  /*********************************************
+ * --------------- Streaming ------------------
+ *********************************************/
+
+ .streaming-container{
+    width:250px;
+    height:auto;
+    padding: 15px 15px 20px 15px!important;
+    background-color:rgba(0, 0, 0, .6);
+    border-radius: 0px 31px 0px 21%;
+    font-size: .55em !important;
+    position:absolute;
+    opacity:.3;
+ }
+
+ .streaming-container h2{
+    text-shadow:1px 1px 2px #000;
+    border-bottom:1.2px solid #adadad;
+    padding-bottom:12px;
+ }
+
+ .streaming-container p{ color:d6d6d6; }
+
+ .streaming-container:hover{
+    opacity:1;
+    background-color:rgba(0, 0, 0, .8);
+    transition-timing-function: 1s linear forwards;
+    transition: linear;
  }
