@@ -621,7 +621,7 @@ ul.list{
  div.web_content p{font-size:.8em;}
 
  ul.web li.web-a:hover{
-  background-size:97%;
+  background-size:99%;
   transition-timing-function: 3s linear;
   -webkit-transition-timing-function: 3s linear;
  }
