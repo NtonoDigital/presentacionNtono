@@ -255,31 +255,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #42affa; }
+  border-right-color: #f9030c; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #42affa; }
+  border-left-color: #f9030c; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #42affa; }
+  border-bottom-color: #f9030c; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #42affa; }
+  border-top-color: #f9030c; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #8dcffc; }
+  border-right-color: #fd2830; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #8dcffc; }
+  border-left-color: #fd2830; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #8dcffc; }
+  border-bottom-color: #fd2830; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #8dcffc; }
+  border-top-color: #fd2830; }
 
 /*********************************************
  * PROGRESS BAR
@@ -288,7 +288,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #42affa;
+  background: #f9030c;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -375,33 +375,35 @@ body {
 }
 
 ul.list{
+  font-weight:500;
   margin-left:10px;
   padding-left:0px;
   padding-top:-2px;
   list-style: none;
-  color:black;
+  color:#e00404;
   display: inline-block;
-  animation: list 5s ease-in-out infinite 3s;
+  animation: list 7s ease-in-out infinite;
  }
 
  @keyframes list {
-    0%{ margin-top:0px; visibility: visible;}
+    0% 100%{ margin-top:0px; visibility: visible;}
+    
+    25%{ margin-top:0px;}
+    28%{ margin-top:-33px;}
+    
+    50%{ margin-top:-33px;}
+    53%{ margin-top: -66px;}
+    
+    75%{ margin-top: -66px;}
+    78%{ margin-top: -33px;}
 
-    30%{ margin-top:0px;}
-
-    35%{ margin-top:-33px;}
-    60%{ margin-top:-33px;}
-
-    65%{ margin-top: -66px;}
-    95%{ margin-top: -66px;}
-
-    97%{ margin-top: -90px; visibility: hidden;}
-    100%{margin-top:0px; visibility: hidden;}
+    98%{ margin-top: -33px;}
+    
  }
 
  .arrow{
     position: relative;
-    animation: arrow-down 1s ease-in-out infinite 10s;
+    animation: arrow-down 1s ease-in-out infinite 3s;
     opacity:0;
  }
 
