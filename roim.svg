@@ -14,15 +14,14 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="558.763px" height="450px"
 	 viewBox="0 0 558.763 450" style="enable-background:new 0 0 558.763 450;" xml:space="preserve">
 <style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 	.st0{fill:#F4F4F4;}
-	.st1{font-family:monospace;}
-	.st2{font-size:51.2621px;}
+	.st1, .st4, .st8{font-family:'Quicksand';}
+	.st2{font-size:51.2621px; font-weight:700;}
 	.st3{fill:#ECECEC;}
-	.st4{font-family:monospace;}
 	.st5{font-size:18.5545px;}
 	.st6{fill:#171617;}
-	.st7{fill:#717171;}
-	.st8{font-family:sans-serif;}
+	.st7{fill:#a7a7a7;}
 	.st9{font-size:18.2663px;}
 	.st10{letter-spacing:-2;}
 	.st11{letter-spacing:-1;}
@@ -258,7 +257,7 @@
 			c0.114,0.1,0.239,0.193,0.381,0.273c1.216,0.694,2.552,0.981,3.931,0.977c1.27-0.004,2.444-1.155,2.404-2.53
 			C343.78,122.147,343.746,120.973,343.712,119.8"/>
 		<text id="XMLID_15_" transform="matrix(1 0 0 1 309.1981 163.105)"><tspan x="0" y="0" class="st7 st8 st9">WEB </tspan><tspan x="-27.631" y="21.919" class="st7 st8 st9">Optimizada</tspan></text>
-		<text id="XMLID_14_" transform="matrix(1 0 0 1 499.0468 189.3247)" class="st12 st8 st13">$</text>
+		<text id="XMLID_14_" transform="matrix(1 0 0 1 499.0468 189.3247)" class=" st2 st12 st8 st13">$</text>
 	</g>
 </switch>
 <i:pgf  id="adobe_illustrator_pgf">
