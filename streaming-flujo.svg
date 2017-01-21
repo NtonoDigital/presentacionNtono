@@ -14,11 +14,12 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px" height="445.495px"
 	 viewBox="0 0 792 445.495" style="enable-background:new 0 0 792 445.495;" xml:space="preserve">
 <style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 	.st0{fill:#E2E2E2;}
-	.st1{fill:#EFEFEF;}
-	.st2{font-family:sans-serif;}
+	.st1{fill:#fff;}
+	.st2{font-family:'Quicksand';}
 	.st3{font-size:12px;}
-	.st4{font-family:sans-serif; fill:#F99F26;text-shadow: 2px 2px 4px #1f1f1f;}
+	.st4{font-family:'Quicksand'; font-weight:700; fill:#F99F26;text-shadow: 2px 2px 4px #1f1f1f;}
 	.st5{font-size:33.9495px;}
 	.st6{fill:none;stroke:#151515;stroke-width:5;stroke-miterlimit:10;}
 	.st7{fill:none;stroke:#151515;stroke-width:3;stroke-miterlimit:10;}
