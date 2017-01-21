@@ -298,7 +298,7 @@ body {
  *********************************************/
 
 .logo_animation{
-    min-height:5em;
+    min-height:325px;
     max-width: 518px;
     margin-left:auto !important;
     margin-right:auto !important;
@@ -401,11 +401,11 @@ ul.list{
 
  .arrow{
     position: relative;
-    animation: flecha 1s ease-in-out infinite 10s;
+    animation: arrow-down 1s ease-in-out infinite 10s;
     opacity:0;
  }
 
- @keyframes flecha{
+ @keyframes arrow-down{
     0%{
         opacity:.5;
       }
@@ -439,7 +439,6 @@ ul.list{
     width:200px;
     padding:10px;
     margin-left:10px;
-   /* background-color:#727373;*/
     text-align: center;
     vertical-align:top;
     font-size:0.6em;
