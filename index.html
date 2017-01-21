@@ -8,11 +8,13 @@
 		<meta name="author" content="Edwin Marte">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<link rel="shortcut icon" type="image/png" href="../../assets/favicon_64.png"/>
+
 		<title>Presentación Ntono</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/ntono.css">
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/reveal.css"/>
+		<link rel="stylesheet" href="css/theme/ntono.css" />
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -70,15 +72,17 @@
 
 				<!--slider #3-->
 				<section data-transition="zoom" data-state="somestate">
-					<h2 class="fragment" data-autoslide="1600">Servicios que ofrecemos</h2>
-					<div class="fragment servicios" data-transition="zoom-out">
+					<h2>Servicios que ofrecemos</h2>
+					<div class="servicios" data-transition="zoom-out">
 						<ul id="servicios2">
 							<li >
 							<img data-src="assets/web_design.png" />
 							<span>Diseño Web</span>
 							</li>
 							<li>
-								<div class="spinner spinner1"></div>
+								<div class="container-spinner">
+									<div class="sub-container-spinner"><div class="spinner spinner1"></div></div>
+								</div>
 								<span>Animación</span>
 							</li>
 							<li>
@@ -101,38 +105,39 @@
 							<a href="http://armid.do/" target="_blank"><li class="web1 web-a">
 								<div class="web_content">
 									<h4>Fundación Armid</h4>
-									<p><span style="color:fefefe">Lugar:</span> República Dominicna <br />
+									<p><span style="color:fefefe">Lugar:</span> República Dominicana <br />
 									<span style="color:fefefe">Objetivo:</span> Tener un espacio virtual para donaciones y eventos deportivos en la disciplina de fútbol.</p>
 								</div>
 							</li></a>
 							<a href="http://www.inafocam.edu.do/portal/" target="_blank"><li class="web2 web-a">
 								<div class="web_content">
 									<h4>Inafocam</h4>
-									<p><span style="color:fefefe">Lugar:</span> República Dominicna <br />
+									<p><span style="color:fefefe">Lugar:</span> República Dominicana <br />
 									<span style="color:fefefe">Objetivo:</span> Mantener informados a todos los maestros del sector público sobre las actividades, talleres y seminarios realizados a nivel nacional. Contando con una gran base de datos.</p>
 								</div>
 							</li></a>
 							<a href="http://marudavila.es/" target="_blank"><li class="web3 web-a">
 								<div class="web_content">
 									<h4>Marudavila.es</h4>
-									<p><span style="color:fefefe">Lugar:</span> República Dominicna <br />
-									<span style="color:fefefe">Objetivo:</span> Plataforma para coaching profeisonal y empresarial con programación neurolinguistica tanto a nivel digital como taller impartido.</p>
+									<p><span style="color:fefefe">Lugar:</span> España<br />
+									<span style="color:fefefe">Objetivo:</span> Plataforma para coaching profesional y empresarial con programación neurolinguistica tanto a nivel digital como taller impartido.</p>
 								</div>
 							</li></a>
 						</ul>
 						
 						<div class="texto-descriptivo">
-							<p>En el área de proyectos web trabajamos las vertientes de: Levantamiento de información, el diseño, la experiencia de usuario, la maquetación y la programación de la misma.</p>
+							<p>En el área de proyectos webs trabajamos las vertientes de: Levantamiento de información, el diseño de la experiencia de usuario, la maquetación y la programación.</p>
 						</div>
+
+						<object class="ico-drag">
+							<embed src="icon_drag.svg">
+						</object>
 				</section>
 
 				<!--Slide 5 -->
-				<section data-transition-speed="fast" data-transition="zoom-in">
+				<section data-transition-speed="fast" data-transition="zoom-in" class="animacion">
 					<h2>Animación</h2>
-				</section>
-
-				<!--Slide 6 -->
-				<section class="animacion">
+				
 					<!--animacion logotipos-->
 					
 						<iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/Oguwz_822MQ?list=PLe2wsG4SCjMG0ki1__5czXeAcS_HDInAG" frameborder="0" allowfullscreen></iframe>
@@ -140,28 +145,36 @@
 
 
 					<div class="texto-descriptivo">
-						<p>En el área de proyectos web trabajamos las vertientes de: Levantamiento de información, el diseño, la experiencia de usuario, la maquetación y la programación de la misma. (Animación de logo, Motion Graphic, Audivisuales</p>
+						<p>Producimos piezas publicitarias, tales como:</p>
 					</div>
 
 					<ul>
+					<!--BOTON LOGO-->
 						<li  onclick="iframechange('https://www.youtube.com/embed/Oguwz_822MQ?list=PLe2wsG4SCjMG0ki1__5czXeAcS_HDInAG')">
 						<span>Logos</span>
 						<div class="btn_animation">
-							
+					<!--BOTON MOTION GRAPHIC-->
 						</div></li>
 						<li onclick="iframechange('https://www.youtube.com/embed/frfrCutB0zI?list=PLe2wsG4SCjMEal8Bbqb-UGbQ6wG2VexZR')">
 						<span>Motion Graphic</span>
 						<div class="btn_animation" >
-							
+					<!--BOTON AUDIO VISUALES-->
 						</div></li>
 						<li onclick="iframechange('https://www.youtube.com/embed/m-FAGIcgoog?list=PLe2wsG4SCjMHKs5AQy9zyajEkTJhrmJTG')">
 						<span>Audio visuales</span>
 						<div class="btn_animation" >
 						</div></li>
+					<!--BOTON BANNER-->
+						<li onclick="iframechange('#')">
+						<span>Banners Webs</span>
+						<div class="btn_animation" >
+						</div></li>
 					</ul>
 				</section>
 				<!--slide 7-->
-				<section><h2>Publicidad Digital</h2></section>
+				<section><h2>Colocación publicitaria</h2>
+					<p>Utiliza la tecnología para superar tus límites geográficos haciendo que tu producto o servicio llegue a un público objetivo por los medios digitales.</p>
+				</section>
 
 				<!--Slide 8-->
 				<section>
@@ -172,6 +185,7 @@
 
 				<!--slide 9-->
 				<section>
+				<h2>¿Por qué invertir?</h2>
 					<object>
 						<embed src="roim.svg">
 					</object>
