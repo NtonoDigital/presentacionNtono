@@ -4961,7 +4961,7 @@
 }));
 
 /****************************************************************************
-====================== Agregando Eventos en slide Activo ===================
+====================== Efectos & comportamientos  ===================
 ****************************************************************************/
 
 Reveal.addEventListener('somestate', function(){
@@ -4970,3 +4970,21 @@ Reveal.addEventListener('somestate', function(){
 	var servicios = document.getElementById("servicios2");
 		servicios.addClass('serv');
 }, false)
+
+
+//Sección de audivisuales  iframe
+	function iframechange(event){
+		document.getElementById('videos').src=event;
+	}
+
+//funcion de print screen
+	var full = document.getElementsByClassName('fullscreen');
+
+	if(document.fullscreenEnabled){
+	full.click(function(){
+		document.getElementsByTagName('body').fullscreeen();
+		return false;
+	});{
+
+	}
+}

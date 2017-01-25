@@ -19,7 +19,9 @@
 
 	<body>
 		<div class="reveal">
-			<div class="slides">
+
+			<div class="slides" id="contenedor">
+			<a href="#" class="fullscreen"  name="full" ></a>
 			<!--slider #1 -->
 				<section>
 					<div class="logo_animation">
@@ -242,12 +244,6 @@
 			Reveal.configure({
 				slideNumber:true,
 			})
-
-			//funciones propias para comportamiento de elementos
-			function iframechange(event){
-				document.getElementById('videos').src=event;
-			}
-
 
 		</script>
 	</body>
