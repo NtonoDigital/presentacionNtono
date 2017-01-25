@@ -11,7 +11,7 @@
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
 <svg version="1.1" id="Layer_2" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="792px" height="445.495px"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px" height="445.495px"
 	 viewBox="0 0 792 445.495" style="enable-background:new 0 0 792 445.495;" xml:space="preserve">
 <style type="text/css">
 	@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
@@ -19,7 +19,7 @@
 	.st1{fill:#fff;}
 	.st2{font-family:'Quicksand';}
 	.st3{font-size:12px;}
-	.st4{font-family:'Quicksand'; font-weight:700; fill:#F99F26;text-shadow: 2px 2px 4px #1f1f1f;}
+	.st4{font-family:'Quicksand'; font-weight:700; fill:#fff;text-shadow: 2px 2px 4px #1f1f1f;}
 	.st5{font-size:33.9495px;}
 	.st6{fill:none;stroke:#151515;stroke-width:5;stroke-miterlimit:10;}
 	.st7{fill:none;stroke:#151515;stroke-width:3;stroke-miterlimit:10;}
@@ -67,8 +67,8 @@
 		</g>
 		<text id="XMLID_38_" transform="matrix(1 0 0 1 82.434 259.7933)" class="st1 st2 st3">Evento</text>
 		<text id="XMLID_12_" transform="matrix(1 0 0 1 378.8833 259.7933)" class="st1 st2 st3">Internet</text>
-		<text id="XMLID_43_" transform="matrix(1 0 0 1 696.8833 209.8766)" class="st1 st4 st3">Usuarios</text>
-		<text id="XMLID_60_" transform="matrix(1 0 0 1 68.4853 74.5614)" class="st1 st4 st5">¿Cómo funciona?</text>
+		<text id="XMLID_43_" transform="matrix(1 0 0 1 690.8833 209.8766)" class="st1 st4 st3">USUARIOS</text>
+		<text id="XMLID_60_" transform="matrix(1 0 0 1 68.4853 74.5614)" class="st1 st4 st5">¿CÓMO FUNCIONA?</text>
 		<text id="XMLID_42_" transform="matrix(1 0 0 1 237.8833 259.7933)" class="st1 st2 st3">Emisión</text>
 		<g id="XMLID_39_">
 			<path id="XMLID_79_" class="st0" d="M287.291,234.246c-1.097,0.253-1.987,0.577-2.896,0.646

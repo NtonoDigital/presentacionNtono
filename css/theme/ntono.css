@@ -693,6 +693,8 @@ ul.list{
     margin:10px;
     vertical-align:-webkit-baseline-middle;
     box-shadow: inset 0px 0px 15px #101010;
+    border:6px #2f2f2f solid;
+    border-bottom-color:red;
  }
 
   .animacion ul li span{
@@ -767,3 +769,35 @@ ul.list{
     transition-timing-function: 1s linear forwards;
     transition: linear;
  }
+
+  .streaming-b ul li{
+    list-style:none;
+    display:inline-block;
+    width:250px;
+    min-height:85px;
+    padding:25px 15px 10px 15px;
+    margin:25px 10px 25px 10px;
+    background-color:#565656;
+    border-radius:13px;
+    text-align: center;
+    position:relative;
+    font-size:20px;
+    vertical-align:-webkit-baseline-middle;
+    vertical-align:bottom;
+    box-shadow: inset #151515 0px 0px 2px;
+
+  }
+
+  .streaming-b ul li i{
+    display:block;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position:absolute;
+    top:-28px;
+    left:40%;
+    background-color:#da190f;
+    padding:10px;
+    font-size:25px;
+    box-shadow:inset black 0px 0px 5px ;
+  }
