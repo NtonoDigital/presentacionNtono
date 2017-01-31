@@ -825,3 +825,48 @@ ul.list{
     font-size:25px;
     box-shadow:inset black 0px 0px 5px ;
   }
+
+/*********************************************
+ * --------------- Contacto ------------------
+ *********************************************/
+
+ .contacto ul{
+  list-style: none;
+  position:relative;
+  animation: aparecer 1s forwards 1s;
+  margin-left:0px;
+ }
+
+@keyframes aparecer{
+  from{
+    opacity:0;
+  }to{
+    opacity:1;
+  }
+}
+ .contacto ul li{
+  display:inline-block;
+  margin-left:10px;
+ }
+
+ .contacto ul li a{
+  color:#abaaaa;
+ }
+
+ .contacto ul li a:hover{
+  color:#f34040;
+ }
+
+ .contacto ul li i{
+  margin:0px 7px;
+ }
+
+ .contacto ul:nth-child(1){
+  margin-left:0px;
+ }
+
+ @media screen and (max-width:600px){
+  .contacto ul{
+    font-size:1.3em;
+  }
+ }
