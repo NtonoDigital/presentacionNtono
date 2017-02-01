@@ -4977,14 +4977,17 @@ Reveal.addEventListener('somestate', function(){
 		document.getElementById('videos').src=event;
 	}
 
-//funcion de print screen
-	var full = document.getElementsByClassName('fullscreen');
+Reveal.addEventListener ('iniciar', function(){
+	//alert("estamos en el slider");
+	var dts="svg/animation_start.svg";
+	var a= document.getElementById('animation_start');
+	 	a.setAttribute("src", dts);	
+}, false);
 
-	if(document.fullscreenEnabled){
-	full.click(function(){
-		document.getElementsByTagName('body').fullscreeen();
-		return false;
-	});{
-
-	}
-}
+//animación de final de preseentación
+/*Reveal.addEventListener ('final', function(){
+	//alert("estamos en el slider");
+	var dts="svg/animation_end.svg";
+	var a= document.getElementById('animation_end');
+	 	a.setAttribute("src", dts);	
+}, false);*/
