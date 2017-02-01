@@ -311,6 +311,21 @@ body {
 
  }
 
+ a.fullscreen:hover .aparecer{
+   display:block;
+ }
+
+ a.fullscreen p{
+  color:#fefefe;
+  position:absolute;
+  top:-16px;
+  right:40px;
+  text-align:right;
+  width:190px;
+  font-size:14px;
+  display:none;
+ }
+
  div.reveal a:hover{
     transform:scale(1.1);
     opacity:1;
@@ -395,6 +410,18 @@ body {
 
 .container-list p, ul{
   margin:0px;
+}
+
+.grupo{
+  width:360px;
+  height:210px;
+}
+
+object.grupo embed{
+  display:block;
+  width:400px;
+  height:auto;
+  margin:0px auto;
 }
 
 ul.list{
