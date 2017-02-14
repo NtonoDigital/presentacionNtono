@@ -897,3 +897,15 @@ ul.list{
     font-size:1.3em;
   }
  }
+
+   /*********************************************
+ * --------------- CopyRight ------------------
+ *********************************************/
+
+ .copyright{
+    position:fixed;
+    bottom:2%;
+    left:0;
+    right:0;
+    font-size:.6em!important;
+ }
