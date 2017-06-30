@@ -453,7 +453,7 @@ ul.list{
 
  .arrow{
     position: relative;
-    animation: arrow-down 1s ease-in-out infinite 3s;
+    animation: arrow-down 1s ease-in-out infinite 2s;
     opacity:0;
  }
 
