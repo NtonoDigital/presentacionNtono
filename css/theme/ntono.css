@@ -836,7 +836,6 @@ ul.list{
     vertical-align:-webkit-baseline-middle;
     vertical-align:bottom;
     box-shadow: inset rgba(0,0,0,0.9) 0px 0px 3px;
-
   }
 
   .streaming-b ul li:hover i{
@@ -858,6 +857,49 @@ ul.list{
     padding:10px;
     font-size:25px;
     box-shadow:inset black 0px 0px 5px ;
+    border:none!important;
+
+  }
+
+  .streaming-list hr{
+    border:2px solid #da190f;
+    margin-top:30px;
+  }
+
+  .streaming-list ul li{
+    list-style:none;
+    display:inline-block;
+    width:170px;
+    min-height:50px;
+    padding:25px 15px 15px 15px;
+    margin:25px 10px 25px 10px;
+    text-align: center;
+    position:relative;
+    font-size:20px;
+    vertical-align:text-top;
+    margin-top:50px;
+  }
+
+  .streaming-list ul li i{
+    display:block;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position:absolute;
+    top:-28px;
+    left:40%;
+    padding:10px;
+    font-size:25px;
+    border:1px solid white;
+  }
+
+  .streaming-list .stream-head i{
+    background-color:red;
+    padding:10px;
+    border-radius:50%;
+    position:absolute;
+    top:76px;
+    font-size:2rem;
   }
 
   .streaming-c ul li{
