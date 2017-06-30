@@ -893,6 +893,14 @@ ul.list{
     border:1px solid white;
   }
 
+  .streaming-list a{
+    color:white;
+  }
+
+  .streaming-list a:hover{
+    color:red;
+  }
+
   .streaming-list .stream-head i{
     background-color:red;
     padding:10px;
