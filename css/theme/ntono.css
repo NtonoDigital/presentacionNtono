@@ -496,7 +496,7 @@ ul.list{
     vertical-align:top;
     font-size:0.6em;
     position:relative;
-    opacity:0;
+    opacity:1;
  }
 
  .servicios ul li:nth-child(1){
@@ -513,10 +513,10 @@ ul.list{
  }
 
   @keyframes entrada{
-    from{
-        opacity: 0;
+      0%{
+        opacity:1;
         transform:translateX(-50px);
-      }to{
+      }100%{
         opacity:1;
         transform:translateX(0px);
       }
@@ -824,18 +824,25 @@ ul.list{
   .streaming-b ul li{
     list-style:none;
     display:inline-block;
-    width:250px;
-    min-height:85px;
-    padding:25px 15px 10px 15px;
+    width:170px;
+    min-height:50px;
+    padding:25px 15px 15px 15px;
     margin:25px 10px 25px 10px;
-    background-color:#565656;
+    background-color:rgba(28,28,28,0.9);
     border-radius:13px;
     text-align: center;
     position:relative;
     font-size:20px;
     vertical-align:-webkit-baseline-middle;
     vertical-align:bottom;
-    box-shadow: inset #151515 0px 0px 2px;
+    box-shadow: inset rgba(0,0,0,0.9) 0px 0px 3px;
+
+  }
+
+  .streaming-b ul li:hover i{
+    background-color:rgba(31,30,30,0.9);
+    font-size:28px;
+    transition: 1s ease-in-out forwards;
 
   }
 
@@ -852,6 +859,39 @@ ul.list{
     font-size:25px;
     box-shadow:inset black 0px 0px 5px ;
   }
+
+  .streaming-c ul li{
+    list-style:none;
+    display:inline-block;
+    width:250px;
+    min-height:85px;
+    padding:25px 15px 10px 15px;
+    margin:25px 10px 25px 10px;
+    background-color:#565656;
+    border-radius:13px;
+    text-align: center;
+    position:relative;
+    font-size:20px;
+    vertical-align:-webkit-baseline-middle;
+    vertical-align:bottom;
+    box-shadow: inset #151515 0px 0px 2px;
+
+  }
+
+  .streaming-c ul li i{
+    display:block;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position:absolute;
+    top:-28px;
+    left:40%;
+    background-color:#da190f;
+    padding:10px;
+    font-size:25px;
+    box-shadow:inset black 0px 0px 5px ;
+  }
+  
 
 /*********************************************
  * --------------- Contacto ------------------

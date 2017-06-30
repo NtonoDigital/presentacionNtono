@@ -8,13 +8,15 @@
 		<meta name="author" content="Edwin Marte">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="shortcut icon" type="image/png" href="assets/favicon_64.png"/>
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+
 
 		<title>Presentación Ntono</title>
 
 		<link rel="stylesheet" href="css/reveal.css"/>
 		<link rel="stylesheet" href="css/theme/ntono.css" />
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="http://ntono.com/favicon.png" type="image/png" />
 	</head>
 
 	<body>
@@ -42,7 +44,7 @@
 						<section  data-state="iniciar">
 						<h2>¿QUIENES SOMOS?</h2>
 						
-						<p>Somos una compañía dedicada al servicio técnico de medios publicitarios, tales como: diseño gráfico, fotografía, edición de vídeos, colocación digital & streaming; ofrecidos por una comunidad de especialistas dedicados a realizar proyectos en conjunto.</p>
+						<p><span style="color:white; font-weight:700">Ntono digital</span> es  una comunidad interdisciplinaria de colaboración dedicada a solución de  servicios técnicos de medios publicitarios. </p>
 
 						<object class="grupo">
 							<embed style="margin-top:-30px" id="animation_start">
@@ -169,12 +171,13 @@
 						<li onclick="iframechange('https://www.youtube.com/embed/m-FAGIcgoog?list=PLe2wsG4SCjMHKs5AQy9zyajEkTJhrmJTG')">
 						<span>Audio visuales</span>
 						<div class="btn_animation" >
-						</div></li>
-					<!--BOTON BANNER-->
+						</div>
+						<!--</li>
+					BOTON BANNER
 						<li onclick="iframechange('#')">
-						<span>Banners Webs</span>
+						<span>Animación web</span>
 						<div class="btn_animation" >
-						</div></li>
+						</div></li>-->
 					</ul>
 				</section>
 				<!--slide 7-->
@@ -199,27 +202,74 @@
 
 
 				<!--slide 10-->
-				<section data-background-video="http://ntono.com/videos/back_stage_ntono.mp4">
+				<section style="background-color:rgba(0,0,0,0.3);" data-background-video="http://ntono.com/videos/back_stage_ntono.mp4">
 					<h2>Streaming</h2>
-					<p>El streaming consiste en la transmisión de audio y video por internet. De este modo, es posible ver videos o escuchar música sin la necesidad de descargar los archivos en el disco duro. </p>
+					<p>Permite que miles de personas exploren, sientan y vivan la experiencia de tu evento desde cualquier lugar donde se encuentren.</p>
 				</section>
 
-				<!--slide 11-->
+				<!--slide 11
 				<section data-transition="slide" data-background-video="http://ntono.com/videos/Demo_claro.mp4, http://ntono.com/videos/Demo_claro.webm">
 					<div class="streaming-container">
 						<h2>Torneo Intercolegial Claro</h2>
 						<p style="">El torneo Intercolegial Claro se celebra una vez al año, desde el 2012 cuando inicio. Aquí compartimos una propuesta de Streaming para el evento deportivo, donde se buscaba jugar con elementos interactivos como: marcadores de juego, logos de patrocinadores, enlace con cuenta Twitter, y otros elementos de multimedia.</p>
 					</div>
-				</section>
+				</section>-->
 
 				</section>
-				<section>
+				<!--<section>
 					<object>
 							<embed z-index="0" src="svg/streaming-flujo.svg">
 					</object>
-				</section>
+				</section>-->
 
 				<section class="streaming-b">
+					<h2>¿Qué ofremos?</h2>
+					<ul>
+						<li><i class="fa fa-money"></i>
+						Modelos de negocios</li>
+						<li><i class="fa fa-bullhorn"></i>
+						Captación de audiencia</li>
+						<li><i class="fa fa-video-camera"></i>
+						Cobertura & producción</li>
+						<li><i class="fa fa-signal"></i>
+						Analítica del evento</li>
+					</ul>
+
+					<img class="arrow" src="assets/arrow_white.png" />
+
+					<!--Modelo de negocio -->
+					<!--<section class="streaming-sub">
+						<div class="stream-head">
+							<h2>Streaming</h2>
+							
+							<i class="fa fa-money">
+							<br />
+							<div class="stream-content">
+								<p>Nuestro compromiso es ayudar a nuestros clientes a obtener un ROIM medibles y directo de todos los servicios realizados con nosotros. Por lo que es de suma importancia darle valor a el contenido y la audiencia potencial a través de modelos de negocios que generen una ganancia para el cliente.</p>
+
+								<ul>
+									<li><i class="fa fa-money">Plan y modelo de negocio</li>
+									<li><i class="fa fa-money"> Definición de canales y brokers de venta</li>
+									<li><i class="fa fa-money">Diseño de marca y materiales audivisuales</li>
+									<li><i class="fa fa-money">Desarrollo de plataforma web</li>
+								</ul>
+							</div>
+						</div>
+					</section>-->
+
+					<!--Audiencia -->
+					<section></section>
+
+					<!--Cobertura -->
+					<section></section>
+
+					<!--Analítica -->
+					<section></section>
+
+					
+				</section>
+
+				<section class="streaming-c">
 					<h2>Beneficios del Streaming</h2>
 					<ul>
 						<li><i class="fa fa-users"></i>
@@ -265,5 +315,19 @@
 
 
 		</script>
+
+			<!-- Tracking Google Analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-100175209-1', 'auto');
+		  ga('send', 'pageview');
+
+</script>
 	</body>
+
+
 </html>
